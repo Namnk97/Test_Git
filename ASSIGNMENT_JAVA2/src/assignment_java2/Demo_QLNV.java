@@ -74,7 +74,7 @@ public class Demo_QLNV extends javax.swing.JFrame implements Runnable {
             }
         } catch (Exception e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Press value ");
+            JOptionPane.showMessageDialog(this, "Press value of : ");
         }
         double age = Double.parseDouble(tuoi);
         double salary = Double.parseDouble(luong);
