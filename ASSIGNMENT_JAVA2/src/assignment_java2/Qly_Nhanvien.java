@@ -34,12 +34,12 @@ public class Qly_Nhanvien implements Interface_Nhanvien  {
     
     @Override
     public void virtualObject() {
-        Nhanvien nv = new Nhanvien("ph17001", "Nam", 24, "namnk@gmail.com", 10000000);
-        Nhanvien nv1 = new Nhanvien("ph17002", "Duy", 30, "duy002@gmail.com", 30000000);
-        Nhanvien nv2 = new Nhanvien("ph17003", "Quy", 28, "quylq12@gmail.com", 7000000);
-        insert(nv);
+        Nhanvien nv1 = new Nhanvien("ph17001", "Nam", 24, "namnk@gmail.com", 10000000);
+        Nhanvien nv2 = new Nhanvien("ph17002", "Duy", 30, "duy002@gmail.com", 30000000);
+        Nhanvien nv3 = new Nhanvien("ph17003", "Quy", 28, "quylq12@gmail.com", 7000000);
         insert(nv1);
         insert(nv2);
+        insert(nv3);
     }
     
 }
